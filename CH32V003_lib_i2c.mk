@@ -1,0 +1,3 @@
+CH32V003_lib_i2c?=./
+ADDITIONAL_C_FILES+=$(CH32V003_lib_i2c)/lib_i2c.c
+EXTRA_CFLAGS+=-I$(CH32V003_lib_i2c)
